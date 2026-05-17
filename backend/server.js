@@ -16,16 +16,16 @@ const PORT = process.env.PORT || 3000;
 
 // ROUTES
 const hospitalRoutes = require('./Routes/HospitalRoutes');
-const ambulanceRoutes = require('./routes/AmbulanceRoutes');
+const ambulanceRoutes = require('./Routes/AmbulanceRoutes');
 const hospitalAmbulanceRoutes = require("./Routes/HospitalAmbulanceRoutes");
-const privateAmbulanceRoutes = require("./routes/PrivateAmbulanceRoutes");
-const patientRoutes = require('./routes/patientRoutes');
-const clinicRoutes = require("./routes/clinicRoutes");
-const appointmentRoutes = require("./routes/appointmentRoutes");
-const prescriptionRoutes = require("./routes/prescriptionRoutes");
-const attendanceRoutes = require("./routes/attendanceRoutes");
-const onlineDoctorRoutes = require("./routes/onlineDoctorRoutes");
-const authRoutes = require("./routes/authRoutes");
+const privateAmbulanceRoutes = require("./Routes/PrivateAmbulanceRoutes");
+const patientRoutes = require('./Routes/patientRoutes');
+const clinicRoutes = require("./Routes/ClinicRoutes");
+const appointmentRoutes = require("./Routes/appointmentRoutes");
+const prescriptionRoutes = require("./Routes/prescriptionRoutes");
+const attendanceRoutes = require("./Routes/attendanceRoutes");
+const onlineDoctorRoutes = require("./Routes/onlineDoctorRoutes");
+const authRoutes = require("./Routes/authRoutes");
 
 
 //  CLEAN PREFIXES
