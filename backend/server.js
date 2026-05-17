@@ -37,7 +37,7 @@ app.use("/api/attendance", attendanceRoutes);
 app.use("/api/hospital-ambulance", hospitalAmbulanceRoutes);
 app.use("/api/private-ambulance", privateAmbulanceRoutes);
 
-const otpRoutes = require("./routes/otpRoutes");
+const otpRoutes = require("./Routes/otpRoutes");
 // MAIN MODULE (IMPORTANT)
 app.use("/api/clinic", clinicRoutes);
 
