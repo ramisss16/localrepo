@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 const PORT = process.env.PORT || 3000;
 
 // ROUTES
-const hospitalRoutes = require('./routes/HospitalRoutes');
+const hospitalRoutes = require('./Routes/HospitalRoutes');
 const ambulanceRoutes = require('./routes/AmbulanceRoutes');
 const hospitalAmbulanceRoutes = require("./Routes/HospitalAmbulanceRoutes");
 const privateAmbulanceRoutes = require("./routes/PrivateAmbulanceRoutes");
